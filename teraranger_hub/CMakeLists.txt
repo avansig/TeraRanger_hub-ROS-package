@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(Boost REQUIRED COMPONENTS system thread)
 
 generate_dynamic_reconfigure_options(
-  cfg/Teraranger_hub.cfg
+  cfg/TerarangerOne.cfg
 )
 
 # export the dependencis of this package for who ever depends on us
